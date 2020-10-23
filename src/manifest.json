@@ -2,6 +2,10 @@
     "manifest_version": 2,
     "name": "WhatsRegulator",
     "version": "0.1",
+    "description": "A WhatsApp Web audio speed controller",
+    "icons": { "16": "assets/img.png",
+               "48": "assets/img2.png",
+               "128": "assets/img3.png" },
     "content_scripts": [
         {
             "matches": ["https://web.whatsapp.com/"],
