@@ -2,7 +2,7 @@
 //Interval waiting the page to fully load in order to get the header class
 const interval = setInterval(() => {
 
-    const header = document.querySelector("._1QUKR")
+    const header = document.querySelector("header")
     if(header){
         clearInterval(interval)//Stops the interval since it found the header
 
